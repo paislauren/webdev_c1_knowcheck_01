@@ -53,7 +53,7 @@ body {
     align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 93vh;
     padding: 0;
     margin: 0;
 }
@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 120px 0;
 }
 
 .aboutme-content {
@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 120px 0;
 }
 
 .projects-content {
@@ -99,10 +99,11 @@ body {
     width: 100%;
     max-width: 1000px;
     display: flex;
+    gap: 20px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 48px;
 }
 
 .projects-item {
@@ -114,7 +115,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 5px 0;
 }
 .contact-content {
     color: #232443;
@@ -129,7 +130,7 @@ body {
 
 .footer-container {
     background: #1b1b27;
-    display: flex;
+    display:contents;
     justify-content: center;
     align-items: center;
     padding: 8px 0;
@@ -137,7 +138,7 @@ body {
 
 .footer-content {
     font-size: 13px;
-    color: #F1F1F1;
+    color: #1b1b27;
     width: 100%;
     max-width: 1000px;
     text-align: center;
@@ -273,14 +274,25 @@ section h3 {
 section h4 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
+
 }
 
-section p {
+section p1 {
     font-family: 'Cabin', sans-serif;
     line-height: 1.5;
 }
-
-
+section p2 {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+}
+section p3 {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+}
+section p {
+    font-family: 'Cabin', sans-serif;
+    line-height: .5;
+}
 /* Lists and Navigation
 ========================================================================== */
 
@@ -299,7 +311,7 @@ section p {
 }
 
 footer {
-    text-align: center;
+    text-align:center;
 }
 
 /* Images and Videos
