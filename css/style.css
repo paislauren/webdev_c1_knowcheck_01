@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -57,6 +59,7 @@ body {
 }
 
 .hero-content {
+    text-align: center;
     width: 100%;
     max-width: 1000px;
     text-align: center;
@@ -104,6 +107,24 @@ body {
 
 .projects-item {
     
+}
+.contact-container {
+    background:#f08527;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+.contact-content {
+    color: #232443;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
 }
 
 .footer-container {
